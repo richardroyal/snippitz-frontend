@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="320px" height="326px" viewBox="0 0 320 326" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.3.3 (12081) - http://www.bohemiancoding.com/sketch -->
+    <title>snippitz</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <g id="Desktop" sketch:type="MSArtboardGroup" transform="translate(-323.000000, -179.000000)">
+            <g id="snippitz" sketch:type="MSLayerGroup" transform="translate(293.000000, 177.000000)">
+                <ellipse id="Tail" fill="#7C4B1F" sketch:type="MSShapeGroup" transform="translate(103.355469, 158.441406) rotate(-21.000000) translate(-103.355469, -158.441406) " cx="103.355469" cy="158.441406" rx="57" ry="137.5"></ellipse>
+                <g id="Body" transform="translate(87.000000, 0.000000)" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-9" fill="#8E5624" transform="translate(92.404892, 22.676632) rotate(15.000000) translate(-92.404892, -22.676632) " x="75.4048918" y="4.67663214" width="34" height="36" rx="8"></rect>
+                    <rect id="Rectangle-9-Copy-2" fill="#AC6322" transform="translate(98.404892, 30.676632) rotate(15.000000) translate(-98.404892, -30.676632) " x="81.4048918" y="12.6766321" width="34" height="36" rx="8"></rect>
+                    <rect id="Rectangle-9-Copy" fill="#8E5624" transform="translate(170.722762, 22.874962) rotate(-10.000000) translate(-170.722762, -22.874962) " x="153.722762" y="4.87496178" width="34" height="36" rx="8"></rect>
+                    <rect id="Rectangle-9-Copy-3" fill="#AC6322" transform="translate(164.121252, 28.893389) rotate(-8.000000) translate(-164.121252, -28.893389) " x="147.121252" y="10.8933889" width="34" height="36" rx="8"></rect>
+                    <circle id="Oval-3" fill="#8E5624" cx="132.5" cy="84.5" r="79.5"></circle>
+                    <ellipse id="Oval-4" fill="#8E5624" transform="translate(91.000000, 103.000000) rotate(14.000000) translate(-91.000000, -103.000000) " cx="91" cy="103" rx="79" ry="57"></ellipse>
+                    <ellipse id="Oval-4-Copy" fill="#8E5624" transform="translate(183.762590, 113.202809) rotate(7.000000) translate(-183.762590, -113.202809) " cx="183.76259" cy="113.202809" rx="79" ry="57"></ellipse>
+                    <path d="M183.135318,320.000012 C223.266461,300.069889 251,257.409784 251,208 C251,139.516691 197.721885,84 132,84 C66.2781148,84 13,139.516691 13,208 C13,257.409784 40.7335391,300.069889 80.8646824,320.000012 L183.135343,320 Z" id="Oval-6" fill="#8E5624"></path>
+                </g>
+                <g id="FEet" transform="translate(115.000000, 302.000000)" fill="#8E5624" sketch:type="MSShapeGroup">
+                    <rect id="Rectangle-6" x="0" y="1" width="84" height="25" rx="8"></rect>
+                    <rect id="Rectangle-6-Copy" x="132" y="0" width="84" height="25" rx="8"></rect>
+                </g>
+                <ellipse id="Oval-7" fill="#AC6322" sketch:type="MSShapeGroup" cx="219.5" cy="217" rx="59.5" ry="75"></ellipse>
+                <g id="Eye-Balls" transform="translate(178.000000, 32.000000)" sketch:type="MSShapeGroup">
+                    <ellipse id="Oval-8" fill="#FFFFFF" cx="17.5" cy="19" rx="17.5" ry="19"></ellipse>
+                    <ellipse id="Oval-8-Copy" fill="#FFFFFF" cx="63.5" cy="19" rx="17.5" ry="19"></ellipse>
+                    <circle id="Oval-10" stroke="#979797" fill="#000000" cx="17.5" cy="22.5" r="6.5"></circle>
+                    <circle id="Oval-10-Copy" stroke="#979797" fill="#000000" cx="64.5" cy="21.5" r="6.5"></circle>
+                </g>
+                <rect id="Nose" fill="#E95583" sketch:type="MSShapeGroup" x="211" y="72" width="17" height="14" rx="8"></rect>
+                <rect id="Mouth" fill="#000000" sketch:type="MSShapeGroup" x="206" y="101" width="26" height="13" rx="8"></rect>
+                <g id="acron" transform="translate(179.000000, 92.000000)" sketch:type="MSShapeGroup">
+                    <g id="Triangle-7-+-Oval-15" transform="translate(6.000000, 13.000000)" fill="#DF9C2E">
+                        <path d="M3,44 L47,44 L25,70 L3,44 Z" id="Triangle-7"></path>
+                        <ellipse id="Oval-15" cx="25" cy="29.5" rx="25" ry="29.5"></ellipse>
+                    </g>
+                    <path d="M60.6033807,37.4690232 C58.2461883,23.592855 45.6657283,13 30.5,13 C15.3342717,13 2.75381169,23.592855 0.396619305,37.4690232 C8.09162802,33.8578971 18.7378113,31.6231884 30.5,31.6231884 C42.2621887,31.6231884 52.908372,33.8578971 60.6033811,37.4690251 Z" id="Oval-16" fill="#A46935"></path>
+                    <rect id="Rectangle-17" fill="#A46935" transform="translate(27.500000, 13.000000) rotate(-10.000000) translate(-27.500000, -13.000000) " x="22" y="1" width="11" height="24"></rect>
+                </g>
+                <g id="right-Arm" transform="translate(229.000000, 126.000000)" sketch:type="MSShapeGroup">
+                    <g id="claws-copy" transform="translate(12.000000, 10.500000) rotate(-28.000000) translate(-12.000000, -10.500000) translate(2.000000, 5.000000)" fill="#191919">
+                        <polygon id="Triangle-1" points="9.5 0 13 11 6 11 "></polygon>
+                        <polygon id="Triangle-1-Copy" points="16.5 0 20 11 13 11 "></polygon>
+                        <polygon id="Triangle-1-Copy-2" points="3.5 0 7 11 0 11 "></polygon>
+                    </g>
+                    <path d="M76.9461217,88.1155372 C76.801849,87.8182438 76.6375812,87.5265891 76.4529533,87.2422869 L27.6477967,12.0889362 C25.2356828,8.37460667 20.2835204,7.32837659 16.5762891,9.73588078 L8.7864323,14.7946729 C5.07970686,17.2018486 4.02547413,22.1590114 6.43286758,25.8660723 L55.2380242,101.019423 C55.8486169,101.959653 56.6219702,102.728918 57.4966905,103.314473 C59.3947237,94.5292239 66.5111199,88 75,88 C75.6575377,88 76.3068407,88.0391744 76.9461217,88.1155372 Z" id="Rectangle-15-Copy" stroke="#7C4B1F" fill="#995B24"></path>
+                </g>
+                <g id="Left-Arm" transform="translate(128.000000, 127.000000)" sketch:type="MSShapeGroup">
+                    <g id="claws" transform="translate(63.000000, 10.500000) rotate(30.000000) translate(-63.000000, -10.500000) translate(53.000000, 5.000000)" fill="#191919">
+                        <polygon id="Triangle-1" points="9.5 0 13 11 6 11 "></polygon>
+                        <polygon id="Triangle-1-Copy" points="16.5 0 20 11 13 11 "></polygon>
+                        <polygon id="Triangle-1-Copy-2" points="3.5 0 7 11 0 11 "></polygon>
+                    </g>
+                    <path d="M21.74513,103.421618 C21.8720199,103.244725 21.9927504,103.061275 22.1068471,102.871386 L68.2594588,26.0605412 C70.540475,22.2642928 69.3099352,17.3546816 65.5209415,15.0780245 L57.5592808,10.2941761 C53.7708042,8.01782974 48.8531905,9.24336881 46.5766382,13.0321882 L0.42402646,89.8430329 C0.368839752,89.9348791 0.315708518,90.0273769 0.264619259,90.1204733 C0.998811467,90.0408541 1.74463474,90 2.5,90 C11.3339903,90 18.8628953,95.5877344 21.74513,103.421618 Z" id="Rectangle-15" stroke="#7C4B1F" fill="#995B24"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

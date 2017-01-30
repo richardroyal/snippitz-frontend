@@ -211,3 +211,87 @@ html, body {
 .mdl-demo .mdl-menu__container {
   z-index: 99;
 }
+
+
+.bk-blue {
+  background-color: #00aff3 !important;
+}
+
+.bk-white {
+  background-color: #fff !important;
+}
+
+.font-blue {
+  color: #00aff3 !important;
+}
+
+.font-white {
+  color: #fff !important;
+}
+
+
+.no-scroll {
+  overflow:hidden;
+}
+
+
+
+
+
+
+
+
+.title-holder {
+  width: 60%;
+  max-width: 300px;
+  padding: 65px 0 45px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.logo-holder {
+  padding-right: 20px;
+  text-align: center;
+}
+.logo-holder object {
+  max-height: 20%;
+}
+
+
+
+.signin-holder {
+  height: 30%;
+}
+
+
+
+
+/* Navbar logo svg on all pages except first */
+
+.navbar-logo-holder {
+  width: 150px;
+  padding: 10px 0 10px 10px;
+}
+
+
+
+
+/* Create account page */
+.create-account-holder {
+  padding-top: 30px;
+
+}
+
+
+
+
+/* Topics Page */
+ul.topics-list {
+
+
+}
+
+
+
+
