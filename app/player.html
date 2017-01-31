@@ -82,68 +82,10 @@
   <body class="">
 
 
-
-<div class="bs-component bk-blue">
-          <div class="navbar navbar-default bk-blue">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <div class="navbar-logo-holder">
+                <div class="player-navbar-logo-holder navbar-logo-holder">
                         <object type="image/svg+xml" data="images/snippitz-logo-white.svg"></object>
                   </div>
 
-                </div>
-                <div class="navbar-collapse collapse navbar-responsive-collapse">
-                  <ul class="nav navbar-nav">
-                    <li class="active"><a href="javascript:void(0)">Active</a></li>
-                    <li><a href="javascript:void(0)">Link</a></li>
-                    <li class="dropdown">
-                      <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
-                        <b class="caret"></b><div class="ripple-container"></div></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="javascript:void(0)">Action</a></li>
-                        <li><a href="javascript:void(0)">Another action</a></li>
-                        <li><a href="javascript:void(0)">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li class="dropdown-header">Dropdown header</li>
-                        <li><a href="javascript:void(0)">Separated link</a></li>
-                        <li><a href="javascript:void(0)">One more separated link</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                  <form class="navbar-form navbar-left">
-                    <div class="form-group is-empty">
-                      <input type="text" class="form-control col-md-8" placeholder="Search">
-                    </div>
-                  </form>
-                  <ul class="nav navbar-nav navbar-right">
-                    <li><a href="javascript:void(0)">Link</a></li>
-                    <li class="dropdown">
-                      <a href="bootstrap-elements.html" data-target="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown
-                        <b class="caret"></b></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="javascript:void(0)">Action</a></li>
-                        <li><a href="javascript:void(0)">Another action</a></li>
-                        <li><a href="javascript:void(0)">Something else here</a></li>
-                        <li class="divider"></li>
-                        <li><a href="javascript:void(0)">Separated link</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-
-
-
-
-
-          <div class="container ">
-              <div class="row">
-                    <div class="col-md-12 topics">
-      
 
 
                         <div class='jAudio'>
@@ -182,9 +124,11 @@
                         
                           <div class='jAudio--controls'>
                             <ul>
+                              <li><button class='jAudio--control jAudio--control-dislike' data-action='dislike'><i class="material-icons">not_interested</i></button></li>
                               <li><button class='jAudio--control jAudio--control-prev' data-action='prev'><span></span></button></li>
                               <li><button class='jAudio--control jAudio--control-play' data-action='play'><span></span></button></li>
                               <li><button class='jAudio--control jAudio--control-next' data-action='next'><span></span></button></li>
+                              <li><button class='jAudio--control jAudio--control-like' data-action='like'> <i class="material-icons">star_border</i>  <span></span></button></li>
                             </ul>
                           </div>
                         
@@ -194,36 +138,43 @@
                               (function() {
                                 var t = {
                                   playlist: [{
-                                    file: "http://www.michaelmammoliti.com/_projects/audioJS/songs/01.mp3",
-                                    thumb: "http://www.michaelmammoliti.com/_projects/audioJS/artworks/01.jpg",
-                                    trackName: "Dusk",
-                                    trackArtist: "Tobu & Syndec",
+                                    file: "audio/car.mp3",
+                                    thumb: "images/mclaren.jpg",
+                                    category_thumb: "images/automotive.svg",
+                                    trackName: "The McLaren MP4-12C Is a Great Deal At $140000 - Or Is It",
+                                    trackArtist: "Kelly Blue Book",
                                     trackAlbum: "Single",
                                   }, {
-                                    file: "http://www.michaelmammoliti.com/_projects/audioJS/songs/02.mp3",
-                                    thumb: "http://www.michaelmammoliti.com/_projects/audioJS/artworks/02.jpg",
-                                    trackName: "Blank",
-                                    trackArtist: "Disfigure",
+                                    file: "audio/dawgnation.mp3",
+                                    thumb: "images/jake.png",
+                                    category_thumb: "images/dawgnation.svg",
+                                    trackName: "Jake Fromm discusses UGA and makes pitch for 4-star WR",
+                                    trackArtist: "Dawg Nation Podcast",
                                     trackAlbum: "Single",
                                   }, {
-                                    file: "http://www.michaelmammoliti.com/_projects/audioJS/songs/03.mp3",
-                                    thumb: "http://www.michaelmammoliti.com/_projects/audioJS/artworks/03.jpg",
-                                    trackName: "Fade",
-                                    trackArtist: "Alan Walker",
+                                    file: "audio/clark_college_fund.mp3",
+                                    thumb: "images/clark.jpg",
+                                    category_thumb: "images/wallet.svg",
+                                    trackName: "College Fund Advise",
+                                    trackArtist: "Clark Howard",
                                     trackAlbum: "Single",
                                   }]
                                 }
                                 $(".jAudio").jAudio(t);
                               })();
+
+
+
+                              $('.jAudio--control-like, .jAudio--control-dislike').click(function () {
+                                  $(this).toggleClass('active');
+                              });
+
+
+                              $('.jAudio--control-play, .jAudio--control-next').click(function() {
+                                  $('.jAudio--control-like, .jAudio--control-dislike').removeClass('active');
+                              });
                           });
                         </script>
-
-
-                    </div>
-              </div>
-        </div>
-
-
 
 
 

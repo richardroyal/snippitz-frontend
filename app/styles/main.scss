@@ -237,6 +237,14 @@ html, body {
   overflow:hidden;
 }
 
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  line-height: 40px; /* adjust line height to align vertically*/
+  padding:0;
+  border-radius: 50%;
+}
+
 
 
 
@@ -331,3 +339,64 @@ ul.topics-list.active li.sublist {
   background-color: #ff1948;
   border-color: #ff1948;
 }
+
+
+
+/* player page */
+.player-navbar-logo-holder {
+  position: absolute;
+  z-index: 1000;
+
+}
+
+p.jAudio--playlist-meta-track-artist {
+  margin-left: 50px;
+}
+
+
+.jAudio--controls {
+  position: absolute;
+  bottom: 0;
+}
+
+
+.jAudio--playlist-item .jAudio--playlist-thumb {
+  width: 65px !important;
+}
+
+
+/*
+.jAudio--control-play {
+  border-radius: 50% !important;
+  background-color: #ff1948 !important;
+  padding: 0 !important;
+  height: 45px;
+  width: 45px;
+}
+*/
+
+.jAudio--controls li {
+  width: 20% !important;
+}
+
+
+.material-icons {
+  font-family: 'Material Icons' !important;
+}
+
+
+.jAudio--control .material-icons {
+  padding-top: 22px;
+}
+
+
+
+.jAudio--control-dislike.active .material-icons {
+    color: #ff1948;
+}
+
+
+.jAudio--control-like.active .material-icons {
+    color: #00aff3;
+}
+

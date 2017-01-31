@@ -114,12 +114,12 @@
       t.each(i.settings.playlist, function(t, i) {
         {
           var e = i.file,
-            r = i.thumb,
+            r = i.category_thumb,
             o = i.trackName,
             s = i.trackArtist;
           i.trackAlbum
         }
-        trackDuration = "00:00", a += "<div class='jAudio--playlist-item' data-track='" + e + "'>", a += "<div class='jAudio--playlist-thumb'><img src='" + r + "'></div>", a += "<div class='jAudio--playlist-meta'>", a += "<p class='jAudio--playlist-meta-track-name'>" + o + "</p>", a += "<p class='jAudio--playlist-meta-track-artist'>" + s + "</p>", a += "</div>", a += "</div>"
+        trackDuration = "00:00", a += "<div class='jAudio--playlist-item' data-track='" + e + "'>", a += "<div class='jAudio--playlist-thumb'><object type='image/svg+xml' data='" + r + "'></object></div>", a += "<div class='jAudio--playlist-meta'>", a += "<p class='jAudio--playlist-meta-track-name'>" + o + "</p>", a += "<p class='jAudio--playlist-meta-track-artist'>" + s + "</p>", a += "</div>", a += "</div>"
       }), i.$domPlaylist.html(a)
     },
     run: function() {
