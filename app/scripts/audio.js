@@ -158,7 +158,10 @@
       var t = this,
         i = t.settings.playlist[t.currentTrack].thumb,
         a = {
-          "background-image": "url(" + i + ")"
+          "background": "linear-gradient(rgba(0,0,0,.3), rgba(0,0,0,.3)), url(" + i + ")",
+          "background-repeat": "no-repeat",
+          "background-size": "cover",
+          "background-position": "center center"
         };
       t.$domThumb.css(a)
     },
