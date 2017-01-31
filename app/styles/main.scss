@@ -229,6 +229,9 @@ html, body {
   color: #fff !important;
 }
 
+.font-black {
+  color: #000 !important;
+}
 
 .no-scroll {
   overflow:hidden;
@@ -287,11 +290,44 @@ html, body {
 
 
 /* Topics Page */
-ul.topics-list {
+ul.topics-list li {
+  padding: 5px 0 5px 5px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 1px;
 
+  object {
+    width: 50px;
+    margin-right: 20px;
+    vertical-align: middle;
+  }
+}
 
+ul.topics-list li.sublist {
+  display: none;
+  padding: 0;
+  margin-top: 0;
+}
+
+ul.topics-list.active li.sublist {
+  display: block !important;
 }
 
 
 
 
+/* Duration Page */
+.noUi-tooltip {
+  bottom: -200% !important;
+  white-space: nowrap;
+}
+
+.slider .noUi-connect, .slider.slider-default .noUi-connect {
+  background-color: #ff1948;
+  border-color: #ff1948;
+}
+
+.slider .noUi-handle, .slider.slider-default .noUi-handle {
+  background-color: #ff1948;
+  border-color: #ff1948;
+}

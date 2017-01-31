@@ -52,6 +52,7 @@
     <!-- Bootstrap Material Design -->
     <link href="styles/bootstrap-material-design.css" rel="stylesheet">
     <link href="styles/ripples.min.css" rel="stylesheet">
+    <link href="styles/nouislider.css" rel="stylesheet">
 
     <!-- Dropdown.js -->
     <link href="http://cdn.rawgit.com/FezVrasta/dropdown.js/master/jquery.dropdown.css" rel="stylesheet">
@@ -59,6 +60,8 @@
 
     <!-- jQuery -->
     <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="scripts/nouislider.js"></script>
+    <script src="scripts/wNumb.js"></script>
 
 
 
@@ -139,82 +142,38 @@
               <div class="row">
                     <div class="col-md-12 topics">
       
-                        <div style="padding-top:5px" class="font-blue pull-right"><a class="font-blue pull-right" href="/duration.html">NEXT</a></div>
-                        <h4 class="header" style="margin-bottom:40px;">Topics</h4>
+                        <div style="padding-top:5px" class="font-blue pull-right"><a class="font-blue pull-right" href="/player.html">DONE</a></div>
+                        <h4 class="header" style="margin-bottom:40px;">Playlist Time</h4>
                         
-                        <ul class="topics-list list-unstyled">
-                          <li class="bk-white font-black" style="background:#4abc96">
-                            <object type="image/svg+xml" data="images/news.svg"></object>
-                            News
-                            <span class="glyphicon glyphicon-ok hidden">
-                          </li>
-                          <li class="sublist">
-                            <ul class="list-unstyled">
-                              <li style="background:#75caae">
-                                <object type="image/svg+xml" data="images/automotive.svg"></object>
-                                Automotive
-                                <span class="glyphicon glyphicon-ok hidden">
-                              </li>
-                              <li style="background:#75caae">
-                                <object type="image/svg+xml" data="images/local.svg"></object>
-                                Local News
-                                <span class="glyphicon glyphicon-ok hidden">
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
 
-                        <ul class="topics-list list-unstyled">
-                          <li class="bk-white font-black" style="background:#c6b298">
-                                <object type="image/svg+xml" data="images/sports.svg"></object>
-                                Sports
-                                <span class="glyphicon glyphicon-ok hidden">
-                          </li>
-                          <li class="sublist">
-                            <ul class="list-unstyled">
-                              <li style="background:#d2c3af">
-                                <object type="image/svg+xml" data="images/dawgnation.svg"></object>
-                                Dawg Nation
-                                <span class="glyphicon glyphicon-ok hidden">
-                              </li>
-                              <li style="background:#d2c3af">
-                                <object type="image/svg+xml" data="images/fishing.svg"></object>
-                                Fly Fishing
-                                <span class="glyphicon glyphicon-ok hidden">
-                              </li>
-                            </ul>
-                          </li>
-                        </ul>
+                        <div class="stopwatch-icon-holder text-center" style="margin-bottom:50px;">
+                          <object type="image/svg+xml" data="images/stopwatch.svg"></object>
+                        </div>
 
-                        <ul class="topics-list list-unstyled">
-                          <li class="bk-white" style="color:#000;">
-                                <object type="image/svg+xml" data="images/entertainment.svg"></object>
-                                Entertainment
-                                <span class="glyphicon glyphicon-ok hidden">
-                          </li>
-                        </ul>
+                        <div id="durationslider" class="slider shor"></div>
 
-                        <ul class="topics-list list-unstyled">
-                          <li class="bk-white" style="color:#000;">
-                                <object type="image/svg+xml" data="images/technology.svg"></object>
-                                Technology
-                                <span class="glyphicon glyphicon-ok hidden">
-                          </li>
-                        </ul>
 
                         <script>
                           $(document).ready(function () {
-                            $('ul.topics-list > li').click(function(evt) {
-                                evt.preventDefault();
-                                $(this).removeClass('font-black bk-white').addClass('checked');
-                                $(this).parent('ul.topics-list').addClass('active');
-                                $(this).children('.glyphicon-ok').removeClass('hidden');
-                            });
-                            $('ul.topics-list ul li').click(function(evt) {
-                                $(this).children('.glyphicon-ok').removeClass('hidden');
-                            });
-
-                          
+                              var slider = document.getElementById('durationslider');
+                              noUiSlider.create(slider, {
+                                  start: [30],
+                                  tooltips: true,
+                                  connect: "lower",
+                                  range: {
+                                          'min': 0,
+                                          'max': 90
+                                  },
+                                  format: wNumb({
+                                          decimals: 0,
+                                          postfix: ' min'
+                                  }),
+                                  pips: {
+                                    mode: 'values',
+                                    values: [0, 90],
+                                    stepped: false
+                                  }
+                              });
                           });
                         </script>
 
