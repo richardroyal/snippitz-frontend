@@ -36,9 +36,10 @@
       var t, i = this;
 
       if ( ((i.settings.playlist.length - 1) - i.currentTrack) === 0) {
-        console.log('you just hit next on the last item');
+        window.location.href = "final.html";
+      } else {
+        t = i.currentTrack === i.settings.playlist.length - 1 ? 0 : i.currentTrack + 1, i.changeTrack(t)
       }
-      t = i.currentTrack === i.settings.playlist.length - 1 ? 0 : i.currentTrack + 1, i.changeTrack(t)
     },
     preLoadTrack: function() {
       var t = this,
