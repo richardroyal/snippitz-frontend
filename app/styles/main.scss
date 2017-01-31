@@ -332,6 +332,22 @@ ul.topics-list li {
   }
 }
 
+ul.news > li:first-child  {
+  background-color: #4abc96;
+}
+ul.news .sublist li.active  {
+  background-color: #75caae;
+}
+
+ul.sports > li:first-child  {
+  background-color: #c6b298;
+}
+ul.sports .sublist li.active  {
+  background-color: #d2c3af;
+}
+
+
+
 ul.topics-list li.sublist {
   display: none;
   padding: 0;

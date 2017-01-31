@@ -142,20 +142,20 @@
                         <div style="padding-top:5px" class="font-blue pull-right"><a class="font-blue pull-right" href="/duration.html">NEXT</a></div>
                         <h4 class="header" style="margin-bottom:40px;">Topics</h4>
                         
-                        <ul class="topics-list list-unstyled">
-                          <li class="bk-white font-black" style="background:#4abc96">
+                        <ul class="topics-list list-unstyled news">
+                          <li class="bk-white font-black" >
                             <object type="image/svg+xml" data="images/news.svg"></object>
                             News
                             <span class="glyphicon glyphicon-ok hidden">
                           </li>
                           <li class="sublist">
                             <ul class="list-unstyled">
-                              <li style="background:#75caae">
+                              <li styler="background:#75caae" class="font-black bk-white">
                                 <object type="image/svg+xml" data="images/automotive.svg"></object>
                                 Automotive
                                 <span class="glyphicon glyphicon-ok hidden">
                               </li>
-                              <li style="background:#75caae">
+                              <li styler="background:#75caae" class="font-black bk-white">
                                 <object type="image/svg+xml" data="images/local.svg"></object>
                                 Local News
                                 <span class="glyphicon glyphicon-ok hidden">
@@ -164,7 +164,7 @@
                           </li>
                         </ul>
 
-                        <ul class="topics-list list-unstyled">
+                        <ul class="topics-list list-unstyled sports">
                           <li class="bk-white font-black" style="background:#c6b298">
                                 <object type="image/svg+xml" data="images/sports.svg"></object>
                                 Sports
@@ -172,12 +172,12 @@
                           </li>
                           <li class="sublist">
                             <ul class="list-unstyled">
-                              <li style="background:#d2c3af">
+                              <li styler="background:#d2c3af" class="font-black bk-white">
                                 <object type="image/svg+xml" data="images/dawgnation.svg"></object>
                                 Dawg Nation
                                 <span class="glyphicon glyphicon-ok hidden">
                               </li>
-                              <li style="background:#d2c3af">
+                              <li styler="background:#d2c3af" class="font-black bk-white">
                                 <object type="image/svg+xml" data="images/fishing.svg"></object>
                                 Fly Fishing
                                 <span class="glyphicon glyphicon-ok hidden">
@@ -211,6 +211,7 @@
                                 $(this).children('.glyphicon-ok').removeClass('hidden');
                             });
                             $('ul.topics-list ul li').click(function(evt) {
+                                $(this).addClass('active').removeClass('font-black bk-white');
                                 $(this).children('.glyphicon-ok').removeClass('hidden');
                             });
 
