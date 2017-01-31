@@ -251,6 +251,7 @@ html, body {
 
 
 
+/* login/first screen */
 
 .title-holder {
   width: 60%;
@@ -262,14 +263,34 @@ html, body {
 
 
 .logo-holder {
-  padding-right: 20px;
   text-align: center;
+  padding-right: 20px;
+  width: 290px;
+  height: 290px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 45px;
 }
 .logo-holder object {
-  max-height: 20%;
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  left: -14px;
+  bottom: -41px;
 }
 
+span.logo-circle {
+   display: block;
+   height: 290px;
+   width: 290px;
+   padding-top: 50px;
+   -moz-border-radius: 50%; /* or 50% */
+   border-radius: 50%; /* or 50% */
 
+   background-color: #009BD9;
+}
 
 .signin-holder {
   height: 30%;
