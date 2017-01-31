@@ -324,12 +324,17 @@ ul.topics-list li {
   color: #fff;
   cursor: pointer;
   margin-top: 1px;
+  font-weight: 400;
 
   object {
     width: 50px;
     margin-right: 20px;
     vertical-align: middle;
   }
+}
+
+ul.topics-list > li {
+  font-size: 25px;
 }
 
 ul.news > li:first-child  {
