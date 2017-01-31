@@ -34,6 +34,9 @@
     },
     next: function() {
       var t, i = this;
+      if (i.settings.playlist.length - 1 == 0) {
+        console.log('you just hit next on the last item');
+      }
       t = i.currentTrack === i.settings.playlist.length - 1 ? 0 : i.currentTrack + 1, i.changeTrack(t)
     },
     preLoadTrack: function() {
